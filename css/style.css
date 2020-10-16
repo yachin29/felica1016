@@ -5,6 +5,65 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,:after,:before{backgr
 
 /* ここからスタイル */
 
+.onuki-box{
+width:80%;
+margin:2rem auto 4rem;
+padding:0 2rem;
+font-family: 'Noto Sans JP', sans-serif;
+color:#222;
+}
+
+/* タイトル */
+.onuki-title{
+margin:6rem 0 1rem;
+font-size:1.2rem;
+font-weight: 500;
+padding-left:1rem;
+border-left:1rem solid #222;
+}
+
+/* テキストと写真のwrapper */
+.onuki-box-inner{
+max-width:960px;
+display: flex;
+margin-bottom:8rem;
+}
+
+/* テキスト */
+.onuki-txt-box{
+max-width:560px;
+height:300px;
+padding:0 3rem 0 2rem;
+display: table;
+}
+.onuki-txt-box>p{
+display:table-cell;
+vertical-align: middle;
+text-align:justify;
+font-feature-settings:"palt";
+font-weight: 400;
+line-height: 1.7rem;
+}
+
+/* 写真 */
+.onuki-photo-box{
+max-width:400px;
+}
+.onuki-photo-box img{
+max-width:400px;
+}
+
+/* 上下の線 */
+.onuki-border{
+max-width:6rem;
+height: 1px;
+margin:0 auto;
+background-color:#222;
+border: none;
+=======
+
+/* ここからスタイル */
+
 
 /* お邪魔します */
 .tery-main{
@@ -102,5 +161,4 @@ text-align: center;
   position: relative;
   padding: 0 1em;
   background: #fff;
-
 }
