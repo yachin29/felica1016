@@ -28,19 +28,11 @@ display: flex;
 margin-bottom:8rem;
 }
 
-/* 写真 */
-.onuki-photo-box{
-max-width:400px;
-}
-.onuki-photo-box img{
-max-width:400px;
-}
-
 /* テキスト */
 .onuki-txt-box{
 max-width:560px;
 height:300px;
-padding-left:2rem;
+padding:0 3rem 0 2rem;
 display: table;
 }
 .onuki-txt-box>p{
@@ -49,7 +41,15 @@ vertical-align: middle;
 text-align:justify;
 font-feature-settings: "palt";
 font-weight: 400;
-line-height: 1.8rem;
+line-height: 1.7rem;
+}
+
+/* 写真 */
+.onuki-photo-box{
+max-width:400px;
+}
+.onuki-photo-box img{
+max-width:400px;
 }
 
 /* 上下の線 */
